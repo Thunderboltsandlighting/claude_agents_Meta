@@ -1,0 +1,47 @@
+{
+  "mcpServers": {
+    "google-sheets": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-google-sheets"
+      ],
+      "env": {
+        "GOOGLE_SHEETS_API_KEY": "${GOOGLE_SHEETS_API_KEY}"
+      }
+    },
+    "quickbooks": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-quickbooks"
+      ],
+      "env": {
+        "QUICKBOOKS_CLIENT_ID": "${QUICKBOOKS_CLIENT_ID}",
+        "QUICKBOOKS_CLIENT_SECRET": "${QUICKBOOKS_CLIENT_SECRET}"
+      }
+    },
+    "salesforce": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-salesforce"
+      ],
+      "env": {
+        "SALESFORCE_USERNAME": "${SALESFORCE_USERNAME}",
+        "SALESFORCE_PASSWORD": "${SALESFORCE_PASSWORD}",
+        "SALESFORCE_SECURITY_TOKEN": "${SALESFORCE_SECURITY_TOKEN}"
+      }
+    },
+    "financial-apis": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-financial-data"
+      ],
+      "env": {
+        "FINANCIAL_API_KEY": "${FINANCIAL_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "mcpServers": {
+    "google-sheets": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-google-sheets"],
+      "description": "Access and manipulate Google Sheets for collaborative financial data",
+      "category": "productivity",
+      "env": {
+        "GOOGLE_SHEETS_API_KEY": "${GOOGLE_SHEETS_API_KEY}"
+      }
+    },
+    "quickbooks": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-quickbooks"],
+      "description": "Integrate with QuickBooks for accounting data and financial transactions",
+      "category": "finance",
+      "env": {
+        "QUICKBOOKS_CLIENT_ID": "${QUICKBOOKS_CLIENT_ID}",
+        "QUICKBOOKS_CLIENT_SECRET": "${QUICKBOOKS_CLIENT_SECRET}"
+      }
+    },
+    "salesforce": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-salesforce"],
+      "description": "Connect to Salesforce CRM for sales and revenue data extraction",
+      "category": "crm",
+      "env": {
+        "SALESFORCE_USERNAME": "${SALESFORCE_USERNAME}",
+        "SALESFORCE_PASSWORD": "${SALESFORCE_PASSWORD}",
+        "SALESFORCE_SECURITY_TOKEN": "${SALESFORCE_SECURITY_TOKEN}"
+      }
+    },
+    "financial-apis": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-financial-data"],
+      "description": "Access market data, economic indicators, and financial benchmarks",
+      "category": "finance",
+      "env": {
+        "FINANCIAL_API_KEY": "${FINANCIAL_API_KEY}"
+      }
+    },
+    "postgresql": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-postgres"],
+      "description": "Query PostgreSQL databases containing financial data",
+      "category": "database",
+      "env": {
+        "POSTGRES_CONNECTION_STRING": "${POSTGRES_CONNECTION_STRING}"
+      }
+    },
+    "sqlite": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sqlite"],
+      "description": "Query SQLite databases for local financial data storage",
+      "category": "database"
+    }
+  }
+}

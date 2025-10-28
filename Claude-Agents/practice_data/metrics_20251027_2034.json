@@ -1,0 +1,97 @@
+{
+  "timestamp": "2025-10-27T20:34:40.742693",
+  "business_metrics": {
+    "financial": {
+      "revenue": 45000,
+      "revenue_change": 8,
+      "avg_session_rate": 150,
+      "outstanding_billing": 2500
+    },
+    "clients": {
+      "new_clients": 12,
+      "total_active": 85,
+      "retention_rate": 92,
+      "cancellation_rate": 5
+    },
+    "operations": {
+      "total_sessions": 180,
+      "therapist_utilization": 0.87,
+      "available_slots": 15,
+      "waitlist_size": 3
+    },
+    "services": {
+      "breakdown": {
+        "individual_therapy": 120,
+        "couples_therapy": 35,
+        "family_therapy": 18,
+        "emdr": 7
+      },
+      "most_requested": "individual_therapy",
+      "emerging_demand": []
+    }
+  },
+  "content_metrics": {
+    "reach": {
+      "total_reach": 15000,
+      "reach_change": 25,
+      "impressions": 22000,
+      "unique_viewers": 12500
+    },
+    "engagement": {
+      "total_engagement": 630,
+      "engagement_rate": 0.042,
+      "likes": 450,
+      "comments": 85,
+      "shares": 65,
+      "saves": 30
+    },
+    "performance": {
+      "posts_published": 5,
+      "best_performing_post": {
+        "title": "Managing Holiday Stress",
+        "engagement": 185
+      },
+      "worst_performing_post": {
+        "title": "Practice Hours Update",
+        "engagement": 45
+      },
+      "optimal_posting_times": [
+        "Tuesday 10am",
+        "Thursday 2pm",
+        "Sunday 7pm"
+      ]
+    },
+    "traffic": {
+      "website_visits_from_social": 245,
+      "profile_views": 520,
+      "link_clicks": 180
+    }
+  },
+  "integrated_insights": {
+    "attribution": {
+      "content_driven_inquiries": 4.0,
+      "content_attributed_revenue": 2096.47,
+      "inquiry_conversion_rate": 1.62
+    },
+    "roi": {
+      "content_investment": 250,
+      "revenue_generated": 2096.47,
+      "roi_percentage": 738.59,
+      "cost_per_inquiry": 63.13
+    },
+    "efficiency": {
+      "engagement_per_inquiry": 159.1,
+      "reach_to_inquiry_rate": 0.0264,
+      "posts_per_inquiry": 1.3
+    },
+    "correlations": {
+      "high_engagement_topics": [],
+      "best_converting_content_types": [],
+      "optimal_posting_schedule": [
+        "Tuesday 10am",
+        "Thursday 2pm",
+        "Sunday 7pm"
+      ]
+    }
+  }
+}

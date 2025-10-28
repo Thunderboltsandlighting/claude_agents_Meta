@@ -1,0 +1,85 @@
+{
+  "content_id": "7b5e8066",
+  "content_type": "instagram-feed",
+  "title": "ADHD in adults: managing executive function challenges",
+  "topic": "ADHD in adults: managing executive function challenges",
+  "created_date": "2025-10-27T21:55:24.664959",
+  "created_by_agent": "therapy-practice-content-creator",
+  "status": "scheduled",
+  "scheduling": {
+    "scheduled_date": "2025-11-06T11:00:00Z",
+    "scheduled_time_local": "11:00 AM CST",
+    "posting_day": "Thursday",
+    "optimal_posting_time": false,
+    "timezone": "America/Chicago"
+  },
+  "content_details": {
+    "word_count": 593,
+    "reading_time_minutes": 2,
+    "platform": "Instagram",
+    "format": "social-media-post",
+    "target_audience": "adults seeking therapy"
+  },
+  "social_media": {
+    "platform": "Instagram",
+    "post_type": "feed",
+    "hashtags": [
+      "#ADHDSupport",
+      "#ExecutiveFunction",
+      "#AdultADHD",
+      "#MentalHealthMatters",
+      "#TherapyWorks",
+      "#ADHDStrategies",
+      "#BrainHealth",
+      "#MentalWellness",
+      "#ADHDTips",
+      "#TherapyHelps"
+    ],
+    "caption_length": 593,
+    "has_cta": true,
+    "cta_type": "engagement",
+    "visual_content_needed": "suggested in post",
+    "accessibility": {
+      "alt_text": "",
+      "captions_required": false
+    }
+  },
+  "business_context": {
+    "business_goal": "attract therapy clients",
+    "service_promoted": "general-therapy",
+    "target_conversion": "engagement",
+    "campaign": null,
+    "content_cluster": null
+  },
+  "performance": {
+    "published_date": null,
+    "published_url": null,
+    "views": 0,
+    "engagement": {
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saves": 0
+    },
+    "conversions": {
+      "website_clicks": 0,
+      "inquiries_generated": 0,
+      "bookings_attributed": 0
+    }
+  },
+  "compliance": {
+    "hipaa_compliant": true,
+    "phi_check": "no_phi_present",
+    "ethical_review": "pending",
+    "crisis_resources_included": false
+  },
+  "version_history": [
+    {
+      "version": 1,
+      "date": "2025-10-27T21:55:24.664982",
+      "changes": "Initial creation",
+      "modified_by": "therapy-practice-content-creator"
+    }
+  ],
+  "notes": "Generated for Instagram about: ADHD in adults: managing executive function challenges"
+}

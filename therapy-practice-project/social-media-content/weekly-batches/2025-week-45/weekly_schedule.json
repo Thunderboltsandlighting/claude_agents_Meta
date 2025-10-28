@@ -1,0 +1,117 @@
+{
+  "week_of": "2025-11-04",
+  "created_date": "2025-10-27T21:37:40.453057",
+  "days": {
+    "2025-11-04": {
+      "date": "2025-11-04",
+      "day_name": "Tuesday",
+      "theme": null,
+      "posts": [
+        {
+          "platform": "Instagram",
+          "time": "09:00",
+          "status": "planning",
+          "content_needed": true,
+          "content_file": null
+        },
+        {
+          "platform": "LinkedIn",
+          "time": "09:00",
+          "status": "planning",
+          "content_needed": true,
+          "content_file": null
+        }
+      ]
+    },
+    "2025-11-05": {
+      "date": "2025-11-05",
+      "day_name": "Wednesday",
+      "theme": null,
+      "posts": [
+        {
+          "platform": "Facebook",
+          "time": "09:00",
+          "status": "planning",
+          "content_needed": true,
+          "content_file": null
+        },
+        {
+          "platform": "Instagram",
+          "time": "09:00",
+          "status": "planning",
+          "content_needed": true,
+          "content_file": null
+        }
+      ]
+    },
+    "2025-11-06": {
+      "date": "2025-11-06",
+      "day_name": "Thursday",
+      "theme": null,
+      "posts": [
+        {
+          "platform": "Instagram",
+          "time": "09:00",
+          "status": "planning",
+          "content_needed": true,
+          "content_file": null
+        }
+      ]
+    },
+    "2025-11-07": {
+      "date": "2025-11-07",
+      "day_name": "Friday",
+      "theme": null,
+      "posts": [
+        {
+          "platform": "LinkedIn",
+          "time": "09:00",
+          "status": "planning",
+          "content_needed": true,
+          "content_file": null
+        },
+        {
+          "platform": "Facebook",
+          "time": "09:00",
+          "status": "planning",
+          "content_needed": true,
+          "content_file": null
+        }
+      ]
+    },
+    "2025-11-08": {
+      "date": "2025-11-08",
+      "day_name": "Saturday",
+      "theme": null,
+      "posts": [
+        {
+          "platform": "Instagram",
+          "time": "09:00",
+          "status": "planning",
+          "content_needed": true,
+          "content_file": null
+        }
+      ]
+    },
+    "2025-11-09": {
+      "date": "2025-11-09",
+      "day_name": "Sunday",
+      "theme": null,
+      "posts": [
+        {
+          "platform": "Instagram",
+          "time": "09:00",
+          "status": "planning",
+          "content_needed": true,
+          "content_file": null
+        }
+      ]
+    },
+    "2025-11-10": {
+      "date": "2025-11-10",
+      "day_name": "Monday",
+      "theme": null,
+      "posts": []
+    }
+  }
+}

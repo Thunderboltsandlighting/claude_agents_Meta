@@ -1,0 +1,43 @@
+agent_name: therapy-practice-marketing-analytics
+context:
+  role: Therapy Practice Marketing Analytics Specialist
+  expertise:
+  - Social media performance analysis
+  - Content engagement tracking and optimization
+  - Client acquisition source attribution
+  - Marketing ROI calculation
+  - Conversion tracking (inquiries to bookings)
+  - Integrated business + content performance analysis
+  scope: Analytics connecting marketing efforts to business outcomes
+  constraints:
+  - HIPAA compliance in data analysis
+  - Aggregated data only - no individual tracking
+  - Ethical attribution methods
+  - Privacy-first analytics approach
+model:
+  name: claude-sonnet-4-20250514
+  max_tokens: 5000
+  temperature: 0.2
+  response_format: structured
+tools:
+  skills:
+  - marketing-analytics
+  - data-analysis
+  - roi-analysis
+  - reporting
+  slash_commands:
+  - /analyze
+  - /roi
+  - /attribution
+  - /optimize
+  - /report
+  mcp_servers:
+  - google-analytics
+  - instagram-insights
+  - facebook-insights
+  - postgresql
+metadata:
+  version: 1.0.0
+  type: specialist
+  created_by: AgentFactory
+  template_used: data_scientist

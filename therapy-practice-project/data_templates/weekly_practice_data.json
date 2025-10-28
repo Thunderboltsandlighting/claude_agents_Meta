@@ -1,0 +1,63 @@
+{
+  "week_of": "2025-10-27",
+  "financial": {
+    "revenue": 8500,
+    "revenue_previous_week": 7850,
+    "avg_session_rate": 150,
+    "outstanding_billing": 2400,
+    "collections_rate": 0.95
+  },
+  "clients": {
+    "new_clients": 3,
+    "total_active_clients": 42,
+    "retention_rate": 0.92,
+    "cancellation_rate": 0.04,
+    "no_show_rate": 0.02
+  },
+  "operations": {
+    "total_sessions": 45,
+    "therapist_utilization": 0.85,
+    "available_slots": 12,
+    "waitlist_size": 3,
+    "avg_wait_time_days": 10,
+    "therapists_count": 3
+  },
+  "service_breakdown": {
+    "individual_therapy": {
+      "sessions": 28,
+      "revenue": 4200,
+      "new_clients": 2
+    },
+    "couples_therapy": {
+      "sessions": 8,
+      "revenue": 1600,
+      "new_clients": 1
+    },
+    "family_therapy": {
+      "sessions": 4,
+      "revenue": 800,
+      "new_clients": 0
+    },
+    "emdr": {
+      "sessions": 5,
+      "revenue": 1000,
+      "new_clients": 0
+    }
+  },
+  "referral_sources": {
+    "social_media": 1,
+    "psychology_today": 1,
+    "word_of_mouth": 1,
+    "insurance_directory": 0,
+    "google_search": 0,
+    "physician_referral": 0
+  },
+  "marketing_data": {
+    "social_media_reach": 1200,
+    "social_media_engagement": 75,
+    "website_visits": 245,
+    "blog_posts_published": 0,
+    "social_posts_published": 5
+  },
+  "notes": "Optional field for any special notes about the week (e.g., holiday closures, special events)"
+}

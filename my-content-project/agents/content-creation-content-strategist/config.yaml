@@ -1,0 +1,40 @@
+agent_name: content-creation-content-strategist
+context:
+  role: Content Strategy Specialist
+  expertise:
+  - Content planning and ideation
+  - Audience analysis and targeting
+  - Content calendar management
+  - SEO optimization
+  - Brand voice and messaging
+  - Multi-platform content strategy
+  scope: Content strategy, planning, and optimization
+  constraints:
+  - Brand consistency
+  - Platform-specific best practices
+  - SEO guidelines
+  - Content quality standards
+model:
+  name: claude-sonnet-4-20250514
+  max_tokens: 6000
+  temperature: 0.4
+  response_format: structured
+tools:
+  skills:
+  - content-planning
+  - seo-optimization
+  - audience-analysis
+  slash_commands:
+  - /brainstorm
+  - /calendar
+  - /seo-audit
+  - /audience-research
+  mcp_servers:
+  - google-analytics
+  - semrush
+  - ahrefs
+metadata:
+  version: 1.0.0
+  type: specialist
+  created_by: AgentFactory
+  template_used: base_agent

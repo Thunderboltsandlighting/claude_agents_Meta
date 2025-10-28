@@ -1,0 +1,82 @@
+{
+  "library_name": "Therapy Practice Social Media Content Library",
+  "created_date": "2025-10-27T21:29:10.479384",
+  "version": "1.0.0",
+  "content_types": {
+    "blog": {
+      "folder": "blogs",
+      "naming_pattern": "YYYY-MM-DD_blog_topic-slug.md",
+      "typical_word_count": "1500-3000",
+      "review_required": true
+    },
+    "instagram-feed": {
+      "folder": "instagram/feed-posts",
+      "naming_pattern": "YYYY-MM-DD_instagram-feed_topic-slug.md",
+      "typical_word_count": "150-250",
+      "review_required": true
+    },
+    "instagram-reel": {
+      "folder": "instagram/reels",
+      "naming_pattern": "YYYY-MM-DD_instagram-reel_topic-slug.md",
+      "typical_word_count": "50-100",
+      "review_required": true
+    },
+    "facebook-post": {
+      "folder": "facebook/feed-posts",
+      "naming_pattern": "YYYY-MM-DD_facebook-post_topic-slug.md",
+      "typical_word_count": "100-250",
+      "review_required": true
+    },
+    "linkedin-post": {
+      "folder": "linkedin/posts",
+      "naming_pattern": "YYYY-MM-DD_linkedin-post_topic-slug.md",
+      "typical_word_count": "200-400",
+      "review_required": true
+    }
+  },
+  "status_folders": {
+    "draft": "Content being created or reviewed",
+    "scheduled": "Content approved and scheduled for publishing",
+    "published": "Content that has been published live",
+    "archive": "Older content for historical reference"
+  },
+  "metadata_schema_version": "1.0",
+  "optimal_posting_times": {
+    "instagram": {
+      "weekday": [
+        "09:00",
+        "12:00",
+        "17:00"
+      ],
+      "weekend": [
+        "10:00",
+        "14:00"
+      ]
+    },
+    "facebook": {
+      "weekday": [
+        "09:00",
+        "13:00",
+        "15:00"
+      ],
+      "weekend": [
+        "11:00",
+        "14:00"
+      ]
+    },
+    "linkedin": {
+      "weekday": [
+        "08:00",
+        "12:00",
+        "17:00"
+      ],
+      "weekend": []
+    }
+  },
+  "compliance": {
+    "hipaa_check_required": true,
+    "phi_check_required": true,
+    "crisis_resources_required": true,
+    "ethical_review_required": true
+  }
+}

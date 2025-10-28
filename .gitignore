@@ -1,0 +1,53 @@
+# API Keys and Secrets
+.env
+*.key
+*.pem
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Claude specific
+.claude/
+
+# Performance data (optional - uncomment if you don't want to track)
+# performance_profile.json
+# weekly_checkins/
+
+# Generated content (optional - uncomment if you don't want to track generated content)
+# social-media-content/**/*.md
+# social-media-content/**/*_meta.json

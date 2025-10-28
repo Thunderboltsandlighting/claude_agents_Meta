@@ -1,0 +1,115 @@
+{
+  "month": "October 2025",
+  "financial": {
+    "total_revenue": 45000,
+    "revenue_change_pct": 8.0,
+    "avg_session_rate": 150,
+    "outstanding_billing": 2500,
+    "total_expenses": 12000,
+    "profit": 33000,
+    "profit_margin": 0.73,
+    "collections_rate": 0.94,
+    "insurance_revenue_pct": 0.70,
+    "self_pay_revenue_pct": 0.30
+  },
+  "clients": {
+    "new_clients": 12,
+    "total_active": 85,
+    "retention_rate": 92.0,
+    "cancellation_rate": 5.0,
+    "no_show_rate": 2.0,
+    "clients_discharged": 3,
+    "avg_sessions_per_client": 2.1,
+    "client_lifetime_value": 875
+  },
+  "operations": {
+    "total_sessions": 180,
+    "therapist_count": 3,
+    "total_available_hours": 360,
+    "total_scheduled_hours": 315,
+    "therapist_utilization": 0.87,
+    "available_slots": 15,
+    "waitlist_size": 3,
+    "avg_wait_time_days": 12,
+    "cancellation_count": 9,
+    "no_show_count": 3
+  },
+  "services": {
+    "individual_therapy": {
+      "sessions": 120,
+      "revenue": 18000,
+      "new_clients": 8,
+      "utilization": 0.90
+    },
+    "couples_therapy": {
+      "sessions": 35,
+      "revenue": 10500,
+      "new_clients": 3,
+      "utilization": 0.65
+    },
+    "family_therapy": {
+      "sessions": 18,
+      "revenue": 5400,
+      "new_clients": 1,
+      "utilization": 0.75
+    },
+    "emdr": {
+      "sessions": 7,
+      "revenue": 2100,
+      "new_clients": 0,
+      "utilization": 0.85
+    }
+  },
+  "referral_sources": {
+    "social_media": 4,
+    "psychology_today": 3,
+    "word_of_mouth": 3,
+    "insurance_directory": 1,
+    "google_search": 1,
+    "physician_referral": 0
+  },
+  "marketing": {
+    "social_media_reach": 15000,
+    "social_media_engagement": 630,
+    "engagement_rate": 0.042,
+    "website_visits": 1250,
+    "blog_posts_published": 2,
+    "social_posts_published": 20,
+    "inquiries_total": 18,
+    "inquiry_to_booking_rate": 0.67,
+    "cost_per_acquisition": 42
+  },
+  "therapist_breakdown": [
+    {
+      "name": "Dr. Smith",
+      "specialty": "anxiety",
+      "hours_available": 40,
+      "hours_scheduled": 36,
+      "utilization": 0.90,
+      "sessions": 72,
+      "revenue": 10800,
+      "new_clients": 5
+    },
+    {
+      "name": "Dr. Jones",
+      "specialty": "couples",
+      "hours_available": 30,
+      "hours_scheduled": 18,
+      "utilization": 0.60,
+      "sessions": 36,
+      "revenue": 7200,
+      "new_clients": 3
+    },
+    {
+      "name": "Dr. Brown",
+      "specialty": "emdr",
+      "hours_available": 25,
+      "hours_scheduled": 22,
+      "utilization": 0.88,
+      "sessions": 44,
+      "revenue": 8800,
+      "new_clients": 4
+    }
+  ],
+  "notes": "Optional field for monthly highlights, challenges, or special circumstances"
+}
