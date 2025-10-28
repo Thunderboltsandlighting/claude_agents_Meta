@@ -1,0 +1,555 @@
+{
+  "observances": {
+    "january": {
+      "month_observances": [
+        {
+          "name": "Mental Wellness Month",
+          "type": "month",
+          "dates": "January 1-31",
+          "focus_areas": ["wellness", "self-care", "mental health"],
+          "content_ideas": [
+            "Starting the Year with Mental Wellness Goals",
+            "Self-Care Strategies for the New Year",
+            "Building Healthy Habits for Mental Wellness",
+            "Winter Mental Health: Staying Well in January"
+          ]
+        }
+      ],
+      "specific_dates": []
+    },
+    "february": {
+      "month_observances": [
+        {
+          "name": "Black History Month",
+          "type": "month",
+          "dates": "February 1-28",
+          "focus_areas": ["diversity", "cultural competence", "mental health disparities"],
+          "content_ideas": [
+            "Mental Health in the Black Community",
+            "Culturally Competent Therapy for Black Americans",
+            "Addressing Mental Health Stigma in Black Communities",
+            "Black Mental Health Matters: Breaking Barriers to Care"
+          ]
+        }
+      ],
+      "specific_dates": [
+        {
+          "name": "World Cancer Day",
+          "date": "February 4",
+          "type": "day",
+          "focus_areas": ["cancer", "mental health", "chronic illness"],
+          "content_ideas": [
+            "Mental Health Support During Cancer Treatment",
+            "Coping with Cancer Diagnosis and Anxiety"
+          ]
+        },
+        {
+          "name": "Eating Disorders Awareness Week",
+          "date": "February 24 - March 2",
+          "type": "week",
+          "focus_areas": ["eating disorders", "body image", "recovery"],
+          "content_ideas": [
+            "Understanding Eating Disorders in Adults",
+            "Supporting a Loved One with an Eating Disorder",
+            "Body Image and Mental Health",
+            "Recovery from Eating Disorders: What to Expect"
+          ]
+        }
+      ]
+    },
+    "march": {
+      "month_observances": [],
+      "specific_dates": [
+        {
+          "name": "Self-Injury Awareness Day",
+          "date": "March 1",
+          "type": "day",
+          "focus_areas": ["self-harm", "coping skills", "teen mental health"],
+          "content_ideas": [
+            "Understanding Self-Harm: Why People Do It",
+            "Healthy Coping Alternatives to Self-Injury",
+            "Helping Teens Who Self-Harm"
+          ]
+        },
+        {
+          "name": "National Sleep Awareness Week",
+          "date": "March 10-16",
+          "type": "week",
+          "focus_areas": ["sleep", "anxiety", "depression"],
+          "content_ideas": [
+            "How Sleep Affects Mental Health",
+            "Sleep Hygiene Tips for Better Mental Wellness",
+            "Insomnia and Anxiety: Breaking the Cycle"
+          ]
+        },
+        {
+          "name": "Brain Awareness Week",
+          "date": "March 10-16",
+          "type": "week",
+          "focus_areas": ["neuroscience", "brain health", "mental health"],
+          "content_ideas": [
+            "How Therapy Changes Your Brain",
+            "Neuroplasticity and Mental Health Recovery",
+            "Understanding the Brain Science of Anxiety"
+          ]
+        },
+        {
+          "name": "National Drug and Alcohol Facts Week",
+          "date": "March 17-23",
+          "type": "week",
+          "focus_areas": ["substance abuse", "addiction", "recovery"],
+          "content_ideas": [
+            "Substance Abuse and Mental Health: The Connection",
+            "Supporting Recovery: Therapy for Addiction",
+            "Talking to Teens About Drugs and Alcohol"
+          ]
+        },
+        {
+          "name": "World Bipolar Day",
+          "date": "March 30",
+          "type": "day",
+          "focus_areas": ["bipolar disorder", "mood disorders"],
+          "content_ideas": [
+            "Understanding Bipolar Disorder",
+            "Living Well with Bipolar Disorder",
+            "Therapy Approaches for Bipolar Disorder"
+          ]
+        }
+      ]
+    },
+    "april": {
+      "month_observances": [
+        {
+          "name": "Sexual Assault Awareness and Prevention Month",
+          "type": "month",
+          "dates": "April 1-30",
+          "focus_areas": ["trauma", "sexual assault", "ptsd", "healing"],
+          "content_ideas": [
+            "Healing from Sexual Trauma with EMDR",
+            "Supporting Survivors of Sexual Assault",
+            "Trauma-Informed Therapy for Sexual Assault Survivors",
+            "Understanding Complex PTSD After Sexual Trauma"
+          ]
+        },
+        {
+          "name": "Alcohol Awareness Month",
+          "type": "month",
+          "dates": "April 1-30",
+          "focus_areas": ["alcohol", "addiction", "recovery"],
+          "content_ideas": [
+            "Is Your Drinking a Problem? Signs to Watch For",
+            "Alcohol and Mental Health: The Hidden Connection",
+            "Supporting a Partner with Alcohol Dependence",
+            "Recovery from Alcohol Addiction: First Steps"
+          ]
+        },
+        {
+          "name": "Autism Awareness Month",
+          "type": "month",
+          "dates": "April 1-30",
+          "focus_areas": ["autism", "neurodiversity"],
+          "content_ideas": [
+            "Understanding Autism in Adults",
+            "Supporting Autistic Family Members",
+            "Autism and Anxiety: Common Co-Occurrence",
+            "Neurodiversity-Affirming Therapy Approaches"
+          ]
+        }
+      ],
+      "specific_dates": [
+        {
+          "name": "Alcohol Screening Day",
+          "date": "April 10",
+          "type": "day",
+          "focus_areas": ["alcohol", "screening", "awareness"],
+          "content_ideas": [
+            "Take the Alcohol Use Screening: Is It Time to Get Help?",
+            "Understanding Your Relationship with Alcohol"
+          ]
+        }
+      ]
+    },
+    "may": {
+      "month_observances": [
+        {
+          "name": "Mental Health Month",
+          "type": "month",
+          "dates": "May 1-31",
+          "focus_areas": ["mental health", "awareness", "all topics"],
+          "content_ideas": [
+            "What is Mental Health Month and Why It Matters",
+            "Breaking the Stigma: Why Mental Health Care is Health Care",
+            "Mental Health Screening: Know Your Mental Health",
+            "5 Ways to Improve Your Mental Health This Month",
+            "When to Seek Therapy: Signs You Need Support",
+            "Mental Health Resources in Hendersonville NC"
+          ]
+        },
+        {
+          "name": "Asian American and Pacific Islander Heritage Month",
+          "type": "month",
+          "dates": "May 1-31",
+          "focus_areas": ["diversity", "cultural competence", "mental health"],
+          "content_ideas": [
+            "Mental Health in AAPI Communities",
+            "Culturally Sensitive Therapy for Asian Americans",
+            "Addressing Mental Health Stigma in AAPI Communities"
+          ]
+        }
+      ],
+      "specific_dates": [
+        {
+          "name": "Maternal Mental Health Awareness Week",
+          "date": "May 5-11",
+          "type": "week",
+          "focus_areas": ["maternal mental health", "postpartum", "pregnancy"],
+          "content_ideas": [
+            "Postpartum Depression: You're Not Alone",
+            "Maternal Mental Health: Getting Help During Pregnancy",
+            "Supporting New Mothers' Mental Health"
+          ]
+        },
+        {
+          "name": "National Children's Mental Health Awareness Day",
+          "date": "May 7",
+          "type": "day",
+          "focus_areas": ["children", "teen mental health", "parenting"],
+          "content_ideas": [
+            "Children's Mental Health: Warning Signs for Parents",
+            "When Your Child Needs Therapy: A Parent's Guide",
+            "Supporting Your Child's Mental Wellness"
+          ]
+        }
+      ]
+    },
+    "june": {
+      "month_observances": [
+        {
+          "name": "Pride Month",
+          "type": "month",
+          "dates": "June 1-30",
+          "focus_areas": ["lgbtq+", "mental health", "affirming therapy"],
+          "content_ideas": [
+            "LGBTQ+ Mental Health: Finding Affirming Therapy",
+            "Mental Health Challenges in the LGBTQ+ Community",
+            "Supporting LGBTQ+ Youth Mental Health",
+            "Coming Out and Mental Health"
+          ]
+        },
+        {
+          "name": "PTSD Awareness Month",
+          "type": "month",
+          "dates": "June 1-30",
+          "focus_areas": ["ptsd", "trauma", "emdr"],
+          "content_ideas": [
+            "Understanding PTSD: Symptoms and Treatment",
+            "EMDR Therapy for PTSD: How It Works",
+            "Complex PTSD vs PTSD: What's the Difference",
+            "Healing from Trauma: Therapy That Works"
+          ]
+        },
+        {
+          "name": "Men's Health Month",
+          "type": "month",
+          "dates": "June 1-30",
+          "focus_areas": ["men's mental health", "stigma"],
+          "content_ideas": [
+            "Men's Mental Health: Breaking the Silence",
+            "Why Men Don't Seek Therapy (and Why They Should)",
+            "Depression in Men: Different Symptoms",
+            "Supporting Men's Emotional Wellness"
+          ]
+        }
+      ],
+      "specific_dates": [
+        {
+          "name": "Juneteenth",
+          "date": "June 19",
+          "type": "day",
+          "focus_areas": ["black mental health", "trauma", "history"],
+          "content_ideas": [
+            "Intergenerational Trauma and Black Mental Health",
+            "Juneteenth and Mental Health: Healing Historical Trauma"
+          ]
+        }
+      ]
+    },
+    "july": {
+      "month_observances": [
+        {
+          "name": "Bebe Moore Campbell National Minority Mental Health Month",
+          "type": "month",
+          "dates": "July 1-31",
+          "focus_areas": ["minority mental health", "diversity", "cultural competence"],
+          "content_ideas": [
+            "Mental Health in Minority Communities",
+            "Addressing Mental Health Disparities",
+            "Culturally Competent Therapy: Why It Matters",
+            "Breaking Mental Health Stigma in Communities of Color"
+          ]
+        }
+      ],
+      "specific_dates": [
+        {
+          "name": "International Self-Care Day",
+          "date": "July 24",
+          "type": "day",
+          "focus_areas": ["self-care", "wellness", "prevention"],
+          "content_ideas": [
+            "Self-Care Isn't Selfish: Mental Health Self-Care Guide",
+            "Daily Self-Care Practices for Mental Wellness"
+          ]
+        }
+      ]
+    },
+    "august": {
+      "month_observances": [
+        {
+          "name": "Supporting Young Minds (Back to School)",
+          "type": "month",
+          "dates": "August 1-31",
+          "focus_areas": ["teens", "school", "anxiety", "children"],
+          "content_ideas": [
+            "Back to School Anxiety: Helping Your Teen",
+            "School-Related Stress and Mental Health",
+            "When School Anxiety Requires Professional Help",
+            "Supporting Student Mental Health"
+          ]
+        }
+      ],
+      "specific_dates": [
+        {
+          "name": "National Grief Awareness Day",
+          "date": "August 30",
+          "type": "day",
+          "focus_areas": ["grief", "loss", "bereavement"],
+          "content_ideas": [
+            "Understanding Grief: There's No Timeline",
+            "When Grief Becomes Complicated: Getting Help",
+            "Supporting Someone Through Grief"
+          ]
+        }
+      ]
+    },
+    "september": {
+      "month_observances": [
+        {
+          "name": "Recovery Month",
+          "type": "month",
+          "dates": "September 1-30",
+          "focus_areas": ["addiction recovery", "substance abuse", "healing"],
+          "content_ideas": [
+            "Celebrating Recovery: Stories of Hope",
+            "The Role of Therapy in Addiction Recovery",
+            "Supporting a Loved One in Recovery",
+            "Recovery is Possible: Treatment Options"
+          ]
+        },
+        {
+          "name": "National Suicide Prevention Month",
+          "type": "month",
+          "dates": "September 1-30",
+          "focus_areas": ["suicide prevention", "crisis", "mental health"],
+          "content_ideas": [
+            "Suicide Prevention: Warning Signs to Know",
+            "How to Help Someone in Crisis",
+            "Mental Health Crisis Resources in Western NC",
+            "Hope and Healing: Life After Suicidal Thoughts"
+          ]
+        }
+      ],
+      "specific_dates": [
+        {
+          "name": "Suicide Prevention Week",
+          "date": "September 7-13",
+          "type": "week",
+          "focus_areas": ["suicide prevention", "crisis"],
+          "content_ideas": [
+            "Suicide Prevention: How to Start the Conversation",
+            "988 Suicide Crisis Lifeline: Help is Available"
+          ]
+        },
+        {
+          "name": "World Suicide Prevention Day",
+          "date": "September 10",
+          "type": "day",
+          "focus_areas": ["suicide prevention", "awareness"],
+          "content_ideas": [
+            "World Suicide Prevention Day: Breaking the Silence",
+            "You Are Not Alone: Suicide Prevention Resources"
+          ]
+        }
+      ]
+    },
+    "october": {
+      "month_observances": [
+        {
+          "name": "ADHD Awareness Month",
+          "type": "month",
+          "dates": "October 1-31",
+          "focus_areas": ["adhd", "executive function", "focus"],
+          "content_ideas": [
+            "Understanding ADHD in Adults",
+            "ADHD and Relationships: Communication Tips",
+            "Executive Function Skills for ADHD",
+            "ADHD Treatment: Medication vs Therapy"
+          ]
+        },
+        {
+          "name": "Depression Awareness Month",
+          "type": "month",
+          "dates": "October 1-31",
+          "focus_areas": ["depression", "treatment", "awareness"],
+          "content_ideas": [
+            "Recognizing Depression Symptoms",
+            "When Sadness Becomes Depression",
+            "Depression Treatment That Works",
+            "Supporting Someone with Depression"
+          ]
+        }
+      ],
+      "specific_dates": [
+        {
+          "name": "Mental Illness Awareness Week",
+          "date": "October 5-11",
+          "type": "week",
+          "focus_areas": ["mental illness", "awareness", "stigma"],
+          "content_ideas": [
+            "Breaking Mental Health Stigma",
+            "Understanding Mental Illness: Facts vs Myths",
+            "Mental Health is Health: Why Treatment Matters"
+          ]
+        },
+        {
+          "name": "World Mental Health Day",
+          "date": "October 10",
+          "type": "day",
+          "focus_areas": ["mental health", "global awareness"],
+          "content_ideas": [
+            "World Mental Health Day: Why Mental Health Matters",
+            "Global Mental Health: We're All in This Together"
+          ]
+        },
+        {
+          "name": "National Coming Out Day",
+          "date": "October 11",
+          "type": "day",
+          "focus_areas": ["lgbtq+", "identity", "support"],
+          "content_ideas": [
+            "Coming Out and Mental Health Support",
+            "LGBTQ+ Affirming Therapy in Western NC"
+          ]
+        },
+        {
+          "name": "Indigenous Peoples Day",
+          "date": "October 13",
+          "type": "day",
+          "focus_areas": ["indigenous mental health", "cultural competence", "trauma"],
+          "content_ideas": [
+            "Indigenous Peoples Day: Honoring Resilience and Mental Health",
+            "Mental Health in Indigenous Communities",
+            "Historical Trauma and Indigenous Mental Health"
+          ]
+        },
+        {
+          "name": "OCD Awareness Week",
+          "date": "October 13-19",
+          "type": "week",
+          "focus_areas": ["ocd", "anxiety", "treatment"],
+          "content_ideas": [
+            "Understanding OCD: More Than Just Being Organized",
+            "OCD Treatment: ERP Therapy Explained",
+            "Living with OCD: Finding the Right Support"
+          ]
+        }
+      ]
+    },
+    "november": {
+      "month_observances": [
+        {
+          "name": "National Family Caregivers Month",
+          "type": "month",
+          "dates": "November 1-30",
+          "focus_areas": ["caregiving", "burnout", "support"],
+          "content_ideas": [
+            "Caregiver Burnout: Recognizing the Signs",
+            "Mental Health Support for Family Caregivers",
+            "Self-Care for Caregivers: It's Not Selfish",
+            "Therapy for Caregiver Stress and Depression"
+          ]
+        },
+        {
+          "name": "Native American Heritage Month",
+          "type": "month",
+          "dates": "November 1-30",
+          "focus_areas": ["native american mental health", "cultural awareness"],
+          "content_ideas": [
+            "Native American Mental Health: Addressing Disparities",
+            "Culturally Sensitive Therapy for Native Americans",
+            "Historical Trauma in Native Communities"
+          ]
+        }
+      ],
+      "specific_dates": [
+        {
+          "name": "Transgender Awareness Week",
+          "date": "November 13-19",
+          "type": "week",
+          "focus_areas": ["transgender", "lgbtq+", "identity"],
+          "content_ideas": [
+            "Transgender Mental Health: Finding Affirming Care",
+            "Supporting Transgender Youth and Families",
+            "Gender Affirming Therapy: What It Means"
+          ]
+        },
+        {
+          "name": "Transgender Day of Remembrance",
+          "date": "November 20",
+          "type": "day",
+          "focus_areas": ["transgender", "grief", "support"],
+          "content_ideas": [
+            "Transgender Day of Remembrance: Supporting the Trans Community",
+            "Mental Health Support for Transgender Individuals"
+          ]
+        },
+        {
+          "name": "International Survivors of Suicide Loss Day",
+          "date": "November 23",
+          "type": "day",
+          "focus_areas": ["grief", "suicide loss", "healing"],
+          "content_ideas": [
+            "Grief After Suicide Loss: You're Not Alone",
+            "Supporting Survivors of Suicide Loss",
+            "Healing After Losing Someone to Suicide"
+          ]
+        }
+      ]
+    },
+    "december": {
+      "month_observances": [],
+      "specific_dates": [
+        {
+          "name": "International Day of Persons with Disabilities",
+          "date": "December 3",
+          "type": "day",
+          "focus_areas": ["disabilities", "mental health", "accessibility"],
+          "content_ideas": [
+            "Mental Health and Disabilities: Accessible Care",
+            "Supporting Mental Health for People with Disabilities"
+          ]
+        }
+      ]
+    }
+  },
+  "lead_time_recommendations": {
+    "day": "3-5 days before",
+    "week": "7-10 days before (start of week)",
+    "month": "7-14 days before (end of previous month or start of month)"
+  },
+  "crisis_resources": {
+    "988_suicide_lifeline": "988",
+    "crisis_text_line": "Text HOME to 741741",
+    "national_domestic_violence": "1-800-799-7233",
+    "samhsa_helpline": "1-800-662-4357"
+  }
+}
