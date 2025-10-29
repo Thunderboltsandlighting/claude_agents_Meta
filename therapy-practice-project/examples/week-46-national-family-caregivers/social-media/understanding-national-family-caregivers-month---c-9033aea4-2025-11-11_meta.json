@@ -1,0 +1,25 @@
+{
+  "content_id": "9033aea4",
+  "content_type": "linkedin-post",
+  "title": "Understanding National Family Caregivers Month - Caregiving Support",
+  "theme": "National Family Caregivers Month - Caregiving Support",
+  "created_date": "2025-10-28T16:52:56.421336",
+  "created_by_agent": "interactive-batch-creator",
+  "status": "scheduled",
+  "content_details": {
+    "platform": "LinkedIn",
+    "target_audience": "general",
+    "tone": "professional",
+    "word_count": 200
+  },
+  "performance": {
+    "views": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0
+  },
+  "compliance": {
+    "hipaa_reviewed": true,
+    "contains_phi": false
+  }
+}

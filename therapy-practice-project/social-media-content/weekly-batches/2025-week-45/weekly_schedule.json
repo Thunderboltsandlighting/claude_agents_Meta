@@ -10,16 +10,18 @@
         {
           "platform": "Instagram",
           "time": "09:00",
-          "status": "planning",
-          "content_needed": true,
-          "content_file": null
+          "status": "scheduled",
+          "content_needed": false,
+          "content_file": "instagram/feed-posts/scheduled/self-care-for-caregivers:-it's-not-selfish-0ca435b0.md",
+          "created_date": "2025-10-28T12:46:22.640169"
         },
         {
           "platform": "LinkedIn",
           "time": "09:00",
-          "status": "planning",
-          "content_needed": true,
-          "content_file": null
+          "status": "scheduled",
+          "content_needed": false,
+          "content_file": "linkedin/articles/scheduled/culturally-sensitive-therapy-for-native-americans-3dbb9f49.md",
+          "created_date": "2025-10-28T12:46:37.714516"
         }
       ]
     },
@@ -31,16 +33,18 @@
         {
           "platform": "Facebook",
           "time": "09:00",
-          "status": "planning",
-          "content_needed": true,
-          "content_file": null
+          "status": "scheduled",
+          "content_needed": false,
+          "content_file": "facebook/posts/scheduled/gender-affirming-therapy:-what-it-means-4aa6eb48.md",
+          "created_date": "2025-10-28T12:46:54.636581"
         },
         {
           "platform": "Instagram",
           "time": "09:00",
-          "status": "planning",
-          "content_needed": true,
-          "content_file": null
+          "status": "scheduled",
+          "content_needed": false,
+          "content_file": "instagram/feed-posts/scheduled/mental-health-support-for-transgender-individuals-0eda39e3.md",
+          "created_date": "2025-10-28T12:47:15.123354"
         }
       ]
     },
@@ -52,9 +56,10 @@
         {
           "platform": "Instagram",
           "time": "09:00",
-          "status": "planning",
-          "content_needed": true,
-          "content_file": null
+          "status": "scheduled",
+          "content_needed": false,
+          "content_file": "instagram/feed-posts/scheduled/anxiety-coping-strategies-for-adults-f736aa8e.md",
+          "created_date": "2025-10-28T12:47:33.899188"
         }
       ]
     },
@@ -66,16 +71,18 @@
         {
           "platform": "LinkedIn",
           "time": "09:00",
-          "status": "planning",
-          "content_needed": true,
-          "content_file": null
+          "status": "scheduled",
+          "content_needed": false,
+          "content_file": "linkedin/articles/scheduled/recognizing-depression-symptoms-in-adults-33e08b1c.md",
+          "created_date": "2025-10-28T12:47:49.539302"
         },
         {
           "platform": "Facebook",
           "time": "09:00",
-          "status": "planning",
-          "content_needed": true,
-          "content_file": null
+          "status": "scheduled",
+          "content_needed": false,
+          "content_file": "facebook/posts/scheduled/signs-you-need-couples-therapy-fca4d5dd.md",
+          "created_date": "2025-10-28T12:48:05.224205"
         }
       ]
     },
@@ -87,9 +94,10 @@
         {
           "platform": "Instagram",
           "time": "09:00",
-          "status": "planning",
-          "content_needed": true,
-          "content_file": null
+          "status": "scheduled",
+          "content_needed": false,
+          "content_file": "instagram/feed-posts/scheduled/teen-mental-health-warning-signs-for-parents-eb9f2662.md",
+          "created_date": "2025-10-28T12:48:23.188754"
         }
       ]
     },
@@ -101,9 +109,10 @@
         {
           "platform": "Instagram",
           "time": "09:00",
-          "status": "planning",
-          "content_needed": true,
-          "content_file": null
+          "status": "scheduled",
+          "content_needed": false,
+          "content_file": "instagram/feed-posts/scheduled/what-is-emdr-therapy-and-how-does-it-work-a348f2e9.md",
+          "created_date": "2025-10-28T12:48:40.120373"
         }
       ]
     },

@@ -1,0 +1,36 @@
+{
+  "content_id": "4aa6eb48",
+  "content_type": "facebook-post",
+  "title": "Gender Affirming Therapy: What It Means",
+  "created_date": "2025-10-28T12:46:54.635376",
+  "created_by_agent": "weekly-batch-creator",
+  "status": "scheduled",
+  "scheduling": {
+    "scheduled_date": "2025-11-05",
+    "scheduled_time": "09:00",
+    "timezone": "America/New_York",
+    "platform": "Facebook"
+  },
+  "content_details": {
+    "platform": "Facebook",
+    "target_audience": "adults seeking therapy",
+    "business_goal": "awareness and engagement"
+  },
+  "social_media": {
+    "platform": "Facebook",
+    "content_type": "post"
+  },
+  "performance": {
+    "views": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "engagement_rate": 0
+  },
+  "compliance": {
+    "hipaa_reviewed": true,
+    "contains_phi": false,
+    "reviewed_by": "automated",
+    "review_date": "2025-10-28T12:46:54.635392"
+  }
+}

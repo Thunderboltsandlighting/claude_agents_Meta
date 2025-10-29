@@ -1,0 +1,36 @@
+{
+  "content_id": "f736aa8e",
+  "content_type": "instagram-feed-post",
+  "title": "Anxiety Coping Strategies for Adults",
+  "created_date": "2025-10-28T12:47:33.898167",
+  "created_by_agent": "weekly-batch-creator",
+  "status": "scheduled",
+  "scheduling": {
+    "scheduled_date": "2025-11-06",
+    "scheduled_time": "09:00",
+    "timezone": "America/New_York",
+    "platform": "Instagram"
+  },
+  "content_details": {
+    "platform": "Instagram",
+    "target_audience": "adults seeking therapy",
+    "business_goal": "awareness and engagement"
+  },
+  "social_media": {
+    "platform": "Instagram",
+    "content_type": "feed-post"
+  },
+  "performance": {
+    "views": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "engagement_rate": 0
+  },
+  "compliance": {
+    "hipaa_reviewed": true,
+    "contains_phi": false,
+    "reviewed_by": "automated",
+    "review_date": "2025-10-28T12:47:33.898192"
+  }
+}
