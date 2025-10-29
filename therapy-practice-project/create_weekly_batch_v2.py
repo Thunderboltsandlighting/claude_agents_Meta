@@ -109,6 +109,60 @@ class InteractiveWeeklyBatchCreator:
                 return json.load(f)
         return {"observances": {}}
 
+    def find_relevant_observances(self, week_start: datetime, week_end: datetime, lead_time_days: int = 14) -> List[Dict]:
+        """
+        Find mental health observances relevant to the given week.
+
+        Args:
+            week_start: Start date of the week
+            week_end: End date of the week
+            lead_time_days: How many days ahead to look for observances
+
+        Returns:
+            List of relevant observances with name, date, type, and description
+        """
+        observances_data = self._load_observances()
+        relevant = []
+
+        # Look ahead window
+        search_end = week_end + timedelta(days=lead_time_days)
+
+        for obs_id, obs_data in observances_data.get("observances", {}).items():
+            # Parse observance date
+            try:
+                obs_date_str = obs_data.get("date", "")
+
+                # Handle date ranges (e.g., "November 01 - November 30")
+                if " - " in obs_date_str:
+                    start_str, end_str = obs_date_str.split(" - ")
+                    obs_start = datetime.strptime(f"{start_str} {week_start.year}", "%B %d %Y")
+                    obs_end = datetime.strptime(f"{end_str} {week_start.year}", "%B %d %Y")
+
+                    # Check if observance overlaps with our search window
+                    if obs_start <= search_end and obs_end >= week_start:
+                        relevant.append({
+                            "name": obs_data.get("name", ""),
+                            "date": obs_date_str,
+                            "type": obs_data.get("type", "day"),
+                            "description": " - ".join(obs_data.get("content_ideas", ["Mental health awareness"]))
+                        })
+                else:
+                    # Single date
+                    obs_date = datetime.strptime(f"{obs_date_str} {week_start.year}", "%B %d %Y")
+
+                    # Check if within search window
+                    if week_start <= obs_date <= search_end:
+                        relevant.append({
+                            "name": obs_data.get("name", ""),
+                            "date": obs_date_str,
+                            "type": obs_data.get("type", "day"),
+                            "description": " - ".join(obs_data.get("content_ideas", ["Mental health awareness"]))
+                        })
+            except (ValueError, AttributeError):
+                continue
+
+        return relevant
+
     def get_existing_topics(self) -> Set[str]:
         """Scan content library and extract all existing topics/titles."""
         existing_topics = set()
@@ -511,7 +565,8 @@ Please provide:
         self,
         theme: str,
         style: Dict,
-        api_key: str
+        api_key: str,
+        week_folder: Path
     ) -> Optional[Path]:
         """
         Create PRD v2.2 compliant blog post.
@@ -678,10 +733,10 @@ Please generate all 5 sections following PRD v2.2 requirements exactly."""
 
             blog_content = message.content[0].text
 
-            # Create blog folder
+            # Create blog folder in week-first structure
             slug = theme.lower().replace(' ', '-').replace(':', '').replace(',', '')[:50]
             content_id = str(uuid.uuid4())[:8]
-            blog_folder = self.blog_path / "drafts" / f"{slug}-{content_id}"
+            blog_folder = week_folder / "blog" / f"{slug}-{content_id}"
             blog_folder.mkdir(parents=True, exist_ok=True)
 
             # Create descriptive filename from theme
@@ -737,19 +792,21 @@ Please generate all 5 sections following PRD v2.2 requirements exactly."""
             print(f"  ❌ Error creating blog: {str(e)}")
             return None
 
-    def save_social_content(self, content_data: Dict, platform: str, date: str) -> Optional[Path]:
-        """Save social media content to appropriate folder."""
+    def save_social_content(self, content_data: Dict, platform: str, date: str, week_folder: Path) -> Optional[Path]:
+        """Save social media content to appropriate folder in week-first structure."""
 
-        platform_folders = {
-            "Instagram": self.library_path / "instagram" / "feed-posts" / "scheduled",
-            "Facebook": self.library_path / "facebook" / "posts" / "scheduled",
-            "LinkedIn": self.library_path / "linkedin" / "articles" / "scheduled"
+        # Use week-first structure: weekly-batches/2025-week-XX/platform/
+        platform_map = {
+            "Instagram": "instagram",
+            "Facebook": "facebook",
+            "LinkedIn": "linkedin"
         }
 
-        folder = platform_folders.get(platform)
-        if not folder:
+        platform_folder_name = platform_map.get(platform)
+        if not platform_folder_name:
             return None
 
+        folder = week_folder / platform_folder_name
         folder.mkdir(parents=True, exist_ok=True)
 
         # Add date to filename for organization
@@ -875,7 +932,7 @@ Please generate all 5 sections following PRD v2.2 requirements exactly."""
                     topic = file_path.stem.replace('-', ' ').title()
 
                     f.write(f"#### Post {i}: {day_name}\n")
-                    f.write(f"- **File:** `{file_path.relative_to(self.library_path.parent)}`\n")
+                    f.write(f"- **File:** `{file_path.relative_to(Path(__file__).parent)}`\n")
                     f.write(f"- **Topic:** {topic}\n")
                     f.write(f"- **Preview:** \"{preview}...\"\n")
                     if hashtags:
@@ -890,7 +947,7 @@ Please generate all 5 sections following PRD v2.2 requirements exactly."""
                 friday_date = (week_dt + timedelta(days=4)).strftime('%A, %B %d')
                 f.write(f"## BLOG POST ({friday_date})\n\n")
                 f.write(f"**Title:** {theme}  \n")
-                f.write(f"**Folder:** `{blog_folder.relative_to(self.library_path.parent)}/`\n\n")
+                f.write(f"**Folder:** `{blog_folder.relative_to(Path(__file__).parent)}/`\n\n")
 
                 # List files in blog folder
                 f.write("### Files:\n")
@@ -943,14 +1000,21 @@ Please generate all 5 sections following PRD v2.2 requirements exactly."""
 
             # Quick file access
             f.write("## QUICK FILE ACCESS\n\n")
-            f.write("**Open all content folders:**\n")
+            f.write("**All content is in ONE folder now!**\n\n")
+            f.write("**Open the week folder:**\n")
             f.write("```bash\n")
-            f.write(f"cd {self.library_path.relative_to(Path.cwd())}\n")
-            f.write("open instagram/feed-posts/scheduled\n")
-            f.write("open facebook/posts/scheduled\n")
-            f.write("open linkedin/articles/scheduled\n")
+            f.write(f"cd \"{batch_folder}\"\n")
+            f.write("open .\n")
+            f.write("```\n\n")
+            f.write("**Or open individual folders:**\n")
+            f.write("```bash\n")
+            f.write(f"cd {batch_folder.relative_to(Path.cwd())}\n")
+            f.write("open instagram/\n")
+            f.write("open facebook/\n")
+            f.write("open linkedin/\n")
             if blog_folder:
-                f.write(f"open {blog_folder.relative_to(Path.cwd())}\n")
+                blog_subfolder_name = blog_folder.name
+                f.write(f"open blog/{blog_subfolder_name}/\n")
             f.write("```\n\n")
 
             f.write("---\n\n")
@@ -977,10 +1041,14 @@ Please generate all 5 sections following PRD v2.2 requirements exactly."""
         week_dt = datetime.fromisoformat(week_start)
         week_end = week_dt + timedelta(days=6)
 
+        # Create week folder for this batch
+        week_number = week_dt.isocalendar()[1]
+        year = week_dt.year
+        week_folder = Path(__file__).parent / "weekly-batches" / f"{year}-week-{week_number:02d}"
+        week_folder.mkdir(parents=True, exist_ok=True)
+
         # Load observances
-        from create_weekly_batch import WeeklyBatchCreator
-        temp_creator = WeeklyBatchCreator()
-        observances = temp_creator.find_relevant_observances(week_dt, week_end, lead_time_days=14)
+        observances = self.find_relevant_observances(week_dt, week_end, lead_time_days=14)
 
         # Step 1: Interactive theme selection
         theme, mode = self.interactive_theme_selection(observances)
@@ -1038,7 +1106,8 @@ Please generate all 5 sections following PRD v2.2 requirements exactly."""
                 content_file = self.save_social_content(
                     content_data,
                     schedule_item['platform'],
-                    schedule_item['date']
+                    schedule_item['date'],
+                    week_folder
                 )
 
                 if content_file:
@@ -1057,7 +1126,7 @@ Please generate all 5 sections following PRD v2.2 requirements exactly."""
         blog_folder = None
         if with_blog:
             print(f"\n[9/9] Friday Blog: {theme}")
-            blog_folder = self.create_blog_post(theme, style, api_key)
+            blog_folder = self.create_blog_post(theme, style, api_key, week_folder)
 
         # Generate weekly content summary
         print(f"\n📋 Generating weekly content summary...")
@@ -1076,10 +1145,14 @@ Please generate all 5 sections following PRD v2.2 requirements exactly."""
 
         print(f"\n✓ Successfully created: {len(created_social)} social posts" + (" + 1 blog post" if blog_folder else ""))
 
-        print(f"\n📁 Content saved to:")
-        print(f"   Social posts: social-media-content/[platform]/scheduled/")
+        print(f"\n📁 ALL CONTENT IN ONE FOLDER:")
+        print(f"   {week_folder.relative_to(Path.cwd())}/")
+        print(f"   ├── instagram/")
+        print(f"   ├── facebook/")
+        print(f"   ├── linkedin/")
         if blog_folder:
-            print(f"   Blog post: {blog_folder.relative_to(Path.cwd())}")
+            print(f"   ├── blog/")
+        print(f"   └── WEEK_{week_number}_CONTENT_SUMMARY.md")
         print(f"\n📋 Weekly Content Summary:")
         print(f"   {summary_file.relative_to(Path.cwd())}")
         print(f"   ✨ Open this file to review everything in one place!")
