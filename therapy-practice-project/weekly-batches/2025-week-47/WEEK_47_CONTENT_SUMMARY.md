@@ -27,7 +27,7 @@
 ### INSTAGRAM (4 posts)
 
 #### Post 1: Monday
-- **File:** `social-media-content/instagram/feed-posts/scheduled/quick-tips:-native-american-heritage-month---nativ-df15c819-2025-11-18.md`
+- **File:** `instagram/quick-tips:-native-american-heritage-month---nativ-df15c819-2025-11-18.md`
 - **Topic:** Quick Tips: Native American Heritage Month   Nativ Df15C819 2025 11 18
 - **Preview:** "🪶 **Honoring Native American Heritage Month: Mental Health & Cultural Healing** 🪶..."
 - **Hashtags:** #NativeAmericanHeritageMonth #MentalHealthSupport #CulturalHealing #HendersonvilleNC #WesternNC
@@ -35,7 +35,7 @@
 - **Scheduled:** ⬜
 
 #### Post 2: Tuesday
-- **File:** `social-media-content/instagram/feed-posts/scheduled/how-to-talk-about-native-american-heritage-month---54562237-2025-11-19.md`
+- **File:** `instagram/how-to-talk-about-native-american-heritage-month---54562237-2025-11-19.md`
 - **Topic:** How To Talk About Native American Heritage Month   54562237 2025 11 19
 - **Preview:** "🪶 **Honoring Native American Heritage Month: Supporting Mental Health in Our Community**..."
 - **Hashtags:** #
@@ -43,7 +43,7 @@
 - **Scheduled:** ⬜
 
 #### Post 3: Wednesday
-- **File:** `social-media-content/instagram/feed-posts/scheduled/signs-you-need-help-with-native-american-heritage--9607be88-2025-11-20.md`
+- **File:** `instagram/signs-you-need-help-with-native-american-heritage--9607be88-2025-11-20.md`
 - **Topic:** Signs You Need Help With Native American Heritage  9607Be88 2025 11 20
 - **Preview:** "During Native American Heritage Month, we honor the resilience and strength of Indigenous communitie..."
 - **Hashtags:** #NativeAmericanHeritageMonth #MentalHealthSupport #CulturalHealing #HendersonvilleNC #WesternNCTherapy
@@ -51,7 +51,7 @@
 - **Scheduled:** ⬜
 
 #### Post 4: Thursday
-- **File:** `social-media-content/instagram/feed-posts/scheduled/native-american-heritage-month---native-american-m-a0e01676-2025-11-21.md`
+- **File:** `instagram/native-american-heritage-month---native-american-m-a0e01676-2025-11-21.md`
 - **Topic:** Native American Heritage Month   Native American M A0E01676 2025 11 21
 - **Preview:** "This Native American Heritage Month, we honor the resilience, wisdom, and cultural richness of Indig..."
 - **Hashtags:** #NativeAmericanHeritageMonth #CulturallyResponsiveCare #MentalHealthSupport #HendersonvilleTherapy #WesternNCCounseling
@@ -61,7 +61,7 @@
 ### FACEBOOK (2 posts)
 
 #### Post 1: Tuesday
-- **File:** `social-media-content/facebook/posts/scheduled/common-myths-about-native-american-heritage-month--5288d752-2025-11-19.md`
+- **File:** `facebook/common-myths-about-native-american-heritage-month--5288d752-2025-11-19.md`
 - **Topic:** Common Myths About Native American Heritage Month  5288D752 2025 11 19
 - **Preview:** "🪶 **Honoring Native American Heritage Month: Breaking Down Mental Health Myths**..."
 - **Hashtags:** #NativeAmericanHeritageMonth #MentalHealthSupport #CulturallyInformedTherapy #HendersonvilleNC #WesternNCMentalHealth
@@ -69,7 +69,7 @@
 - **Scheduled:** ⬜
 
 #### Post 2: Thursday
-- **File:** `social-media-content/facebook/posts/scheduled/supporting-a-loved-one-with-native-american-herita-82be3b71-2025-11-21.md`
+- **File:** `facebook/supporting-a-loved-one-with-native-american-herita-82be3b71-2025-11-21.md`
 - **Topic:** Supporting A Loved One With Native American Herita 82Be3B71 2025 11 21
 - **Preview:** "This Native American Heritage Month, we honor the rich traditions, resilience, and strength of Nativ..."
 - **Hashtags:** #NativeAmericanHeritageMonth #CulturallyResponsiveCare #MentalHealthSupport #TraumaTherapy #EMDRTherapy
@@ -79,7 +79,7 @@
 ### LINKEDIN (2 posts)
 
 #### Post 1: Monday
-- **File:** `social-media-content/linkedin/articles/scheduled/understanding-native-american-heritage-month---nat-0d48da38-2025-11-18.md`
+- **File:** `linkedin/understanding-native-american-heritage-month---nat-0d48da38-2025-11-18.md`
 - **Topic:** Understanding Native American Heritage Month   Nat 0D48Da38 2025 11 18
 - **Preview:** "This Native American Heritage Month, we honor the rich traditions and resilience of Indigenous commu..."
 - **Hashtags:** #NativeAmericanHeritageMonth #MentalHealthSupport #TraumaTherapy #CulturalHealing #HendersonvilleNC
@@ -87,7 +87,7 @@
 - **Scheduled:** ⬜
 
 #### Post 2: Wednesday
-- **File:** `social-media-content/linkedin/articles/scheduled/native-american-heritage-month---native-american-m-9b0d0337-2025-11-20.md`
+- **File:** `linkedin/native-american-heritage-month---native-american-m-9b0d0337-2025-11-20.md`
 - **Topic:** Native American Heritage Month   Native American M 9B0D0337 2025 11 20
 - **Preview:** "During Native American Heritage Month, we honor the rich cultural traditions and recognize the uniqu..."
 - **Hashtags:** #NativeAmericanHeritageMonth #MentalHealthSupport #CulturallyInformedTherapy #TraumaTherapy #HendersonvilleNC
@@ -99,7 +99,7 @@
 ## BLOG POST (Saturday, November 22)
 
 **Title:** Native American Heritage Month - Native American Mental Health Support  
-**Folder:** `blog-posts/drafts/native-american-heritage-month---native-american-m-8eef6d2c/`
+**Folder:** `blog/native-american-heritage-month---native-american-m-8eef6d2c/`
 
 ### Files:
 - **Main Content:** `native-american-heritage-month---native-american-m.md` (2000-3000 words)
@@ -148,13 +148,21 @@ _A comprehensive 200-word guide exploring native american heritage month - nativ
 
 ## QUICK FILE ACCESS
 
-**Open all content folders:**
+**All content is in ONE folder now!**
+
+**Open the week folder:**
 ```bash
-cd social-media-content
-open instagram/feed-posts/scheduled
-open facebook/posts/scheduled
-open linkedin/articles/scheduled
-open blog-posts/drafts/native-american-heritage-month---native-american-m-8eef6d2c
+cd "/Users/Coding Projects/Claude_Agents_Meta/therapy-practice-project/weekly-batches/2025-week-47"
+open .
+```
+
+**Or open individual folders:**
+```bash
+cd weekly-batches/2025-week-47
+open instagram/
+open facebook/
+open linkedin/
+open blog/native-american-heritage-month---native-american-m-8eef6d2c/
 ```
 
 ---
