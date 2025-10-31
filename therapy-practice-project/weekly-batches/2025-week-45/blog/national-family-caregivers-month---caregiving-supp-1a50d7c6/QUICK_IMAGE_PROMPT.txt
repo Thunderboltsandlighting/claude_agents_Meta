@@ -1,0 +1,117 @@
+═══════════════════════════════════════════════════════════════════
+COPY-PASTE IMAGE PROMPT (Use with ANY AI image generator)
+═══════════════════════════════════════════════════════════════════
+
+BASE PROMPT FOR ALL IMAGES:
+----------------------------
+
+Professional, warm therapy photography for mental health practice.
+Theme: Family caregiving support during National Family Caregivers Month.
+
+Visual concept: Warm, hopeful scene showing diverse family members
+supporting each other - adult child with elderly parent, or caregiver
+taking a peaceful self-care moment. Soft natural lighting, Western
+North Carolina aesthetic (subtle mountain backdrop optional).
+
+Color palette: Calming blues and greens, warm earth tones, soft
+amber lighting. Conveys compassion, hope, and professional support.
+
+Mood: Empathetic, supportive, professional yet approachable.
+Shows strength through vulnerability.
+
+Text overlay space: Keep center-left clear for text overlay.
+No faces looking directly at camera.
+
+Style: Authentic lifestyle photography aesthetic (not stock photo),
+slightly desaturated for professional mental health branding.
+
+
+═══════════════════════════════════════════════════════════════════
+QUICK DIMENSIONS TABLE
+═══════════════════════════════════════════════════════════════════
+
+FORMAT                  | DIMENSIONS      | ORIENTATION
+------------------------|-----------------|------------------
+Blog Featured           | 1200 x 630      | Landscape
+Instagram Feed          | 1080 x 1080     | Square
+Instagram Story/Reel    | 1080 x 1920     | Vertical (9:16)
+Facebook Feed           | 1200 x 1200     | Square
+Facebook Story          | 1080 x 1920     | Vertical (9:16)
+
+
+═══════════════════════════════════════════════════════════════════
+FASTEST METHOD: CANVA
+═══════════════════════════════════════════════════════════════════
+
+1. Generate ONE image (square 1080x1080 works best)
+2. Upload to Canva.com
+3. Use "Magic Resize" to create all formats automatically
+4. Add text overlays (see suggestions below)
+5. Export all
+
+TOTAL TIME: 15 minutes
+
+
+═══════════════════════════════════════════════════════════════════
+TEXT OVERLAY SUGGESTIONS
+═══════════════════════════════════════════════════════════════════
+
+BLOG:
+"Supporting Family Caregivers | Hendersonville Counseling"
+
+INSTAGRAM FEED:
+"You don't have to carry this alone 🧡
+National Family Caregivers Month
+#CaregiverSupport #HendersonvilleNC"
+
+INSTAGRAM STORY:
+Top: "November = Family Caregivers Month"
+Bottom: "You deserve support too | Link in bio"
+
+FACEBOOK:
+"Are you caring for a family member?
+Professional support for caregivers in Western NC
+Hendersonville Counseling"
+
+
+═══════════════════════════════════════════════════════════════════
+WHERE TO GENERATE IMAGES
+═══════════════════════════════════════════════════════════════════
+
+OPTION 1 (FREE): ChatGPT with DALL-E
+→ chat.openai.com
+→ Paste prompt above
+→ Download generated image
+
+OPTION 2 (BEST QUALITY): Midjourney
+→ Discord → /imagine [paste prompt] --ar 1:1 --v 6
+
+OPTION 3 (EASIEST): Canva AI
+→ canva.com → "Text to Image"
+→ Paste prompt
+→ Resize with Magic Resize
+
+
+═══════════════════════════════════════════════════════════════════
+BRAND COLORS (for text overlays)
+═══════════════════════════════════════════════════════════════════
+
+Primary Blue: #3A5A78
+Warm Amber: #E8A87C
+Dark Text: #2C3E50
+White: #FFFFFF
+
+
+═══════════════════════════════════════════════════════════════════
+PRO TIP
+═══════════════════════════════════════════════════════════════════
+
+Generate ONE vertical image (1080x1920) first.
+This works for Stories/Reels.
+Then crop it to square for Feed posts.
+Then crop wider for Blog.
+
+This way, one generation = 5 formats!
+
+
+═══════════════════════════════════════════════════════════════════
