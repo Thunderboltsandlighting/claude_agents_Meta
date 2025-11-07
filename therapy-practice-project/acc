@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Ada Content Creator - Global Launcher
+# This script can be run from anywhere and will launch the content creator
+
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Change to project directory
+cd "$SCRIPT_DIR"
+
+# Check if Python 3 is available
+if ! command -v python3 &> /dev/null; then
+    echo "❌ Error: Python 3 is not installed"
+    exit 1
+fi
+
+# Check if API key is set
+if [ -z "$ANTHROPIC_API_KEY" ]; then
+    echo "⚠️  Warning: ANTHROPIC_API_KEY not set"
+    echo "   The system will guide you through setup if needed"
+    echo ""
+fi
+
+# Launch the CLI
+python3 "$SCRIPT_DIR/content_cli.py"

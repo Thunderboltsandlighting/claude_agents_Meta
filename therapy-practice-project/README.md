@@ -18,12 +18,27 @@ This system connects your practice's business data directly to your content stra
 
 ## Quick Start
 
-### 🚀 Launch Interactive Menu (EASIEST)
+### ⚡ Install Global Command (RECOMMENDED)
+
+Install once, use forever from anywhere:
 
 ```bash
 cd "/Users/Coding Projects/Claude_Agents_Meta/therapy-practice-project"
+./install_command.sh
+```
 
-# Launch the interactive menu
+Then just type `acc` from anywhere:
+
+```bash
+acc  # Works from any directory! 🚀
+```
+
+### 🚀 Or Launch Directly
+
+```bash
+cd "/Users/Coding Projects/Claude_Agents_Meta/therapy-practice-project"
+./start.sh
+# or
 python3 content_cli.py
 ```
 
