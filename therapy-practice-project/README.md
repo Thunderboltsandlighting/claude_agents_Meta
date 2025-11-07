@@ -18,6 +18,28 @@ This system connects your practice's business data directly to your content stra
 
 ## Quick Start
 
+### 🚀 Launch Interactive Menu (EASIEST)
+
+```bash
+cd "/Users/Coding Projects/Claude_Agents_Meta/therapy-practice-project"
+
+# Launch the interactive menu
+python3 content_cli.py
+```
+
+**The menu provides:**
+- 🆕 Create new weekly content (8 posts + blog)
+- 📁 View and manage existing content
+- 🖼️ Image generation guidance
+- ℹ️ System information and status
+
+### Alternative: Command Line
+
+```bash
+# Direct command-line usage (advanced)
+python3 create_weekly_batch_v2.py --week 2025-11-11 --use-api --interactive --with-blog
+```
+
 ### Test the Weekly Workflow
 
 ```bash
